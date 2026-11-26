@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaStat — Indonesia in Numbers</title>
+<meta name="description" content="NusaStat is an independent national statistics portal for Indonesia: population, economy, health, education and the provinces, with real figures and their sources.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <span class="brand-text"><strong>NusaStat</strong><small>Indonesia in Numbers</small></span>
+    </a>
+    <nav class="mainnav" aria-label="Sections">
+      <a href="#/" data-nav="overview">Overview</a>
+      <a href="#/population" data-nav="population">Population</a>
+      <a href="#/economy" data-nav="economy">Economy</a>
+      <a href="#/people" data-nav="people">People &amp; Society</a>
+      <a href="#/regions" data-nav="regions">Regions</a>
+      <a href="#/about" data-nav="about">Sources</a>
+    </nav>
+    <label class="sitesearch">
+      <span class="sr">Search indicators</span>
+      <input id="site-search" type="search" placeholder="Search an indicator…" autocomplete="off">
+    </label>
+  </div>
+</header>
+<main id="view" class="wrap" tabindex="-1"></main>
+<noscript><p class="wrap noscript-note">NusaStat renders its charts and tables with JavaScript. Please enable JavaScript to explore the statistics.</p></noscript>
+<footer class="sitefoot">
+  <div class="wrap foot-in">
+    <p><strong>NusaStat</strong> — an independent statistics portal. Every figure on this site carries its
+    source and reference year. Figures are compiled from the World Bank World Development Indicators,
+    Statistics Indonesia (BPS), the IMF World Economic Outlook and the UN Human Development Report.</p>
+    <p class="foot-links">
+      <a href="#/about">Sources &amp; methods</a> ·
+      <a href="#/about">How to cite</a> ·
+      <a href="#/regions">All 38 provinces</a>
+    </p>
+    <p class="foot-note">Data as published November 2026. NusaStat is not affiliated with BPS or any government body.</p>
+  </div>
+</footer>
+<script src="data.js"></script>
+<script src="charts.js"></script>
+<script src="views.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
